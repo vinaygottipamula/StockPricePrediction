@@ -8,24 +8,25 @@ This project focuses on predicting stock prices using machine learning and deep 
 
 Ensure you have the following libraries installed:
 
-- Python 3.x
+- Python 3
 - numpy
 - yfinance
 - scikit-learn
 - keras
 - matplotlib
 - streamlit
+- tensorflow
 
 Install dependencies using:
 
 ```bash
-pip install numpy yfinance scikit-learn keras matplotlib streamlit
+pip install numpy yfinance scikit-learn keras matplotlib streamlit tensorflow
 ```
 
 ### Usage
 
 Run the main script to launch the stock price prediction application:
 ```bash
-streamlit run stock_prediction_app.py
+streamlit run StockPricePredictionApp.py
 ```
 
